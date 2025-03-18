@@ -1,0 +1,31 @@
+
+$primary-color: #2c3e50;
+$secondary-color: #3498db;
+$text-color: #333;
+$font-main: 'Arial', sans-serif;
+
+main {
+  font-family: $font-main;
+  color: $text-color;
+}
+
+.content-block {
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  height: 100%;
+}
+
+.custom-button {
+  background-color: $primary-color;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: $secondary-color;
+  }
+}
